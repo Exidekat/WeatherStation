@@ -1,7 +1,6 @@
 import re
 
 import requests
-import pytest
 from bs4 import BeautifulSoup
 
 # provide city of station

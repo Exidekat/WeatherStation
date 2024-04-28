@@ -8,4 +8,4 @@ Neal Team 6
 - Brian Chiang
 
 # Required packages
-- pip install requests bs4 pytest
+- pip install requests bs4
