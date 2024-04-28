@@ -9,3 +9,7 @@ Neal Team 6
 
 # Required packages
 - pip install requests bs4
+
+# Deployment
+Ran with jenkins
+![alt text]( ./img.png) 
