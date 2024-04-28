@@ -11,5 +11,5 @@ Neal Team 6
 - pip install requests bs4
 
 # Deployment
-Auto build deployment made with Jenkins and GH Webhooks
+Auto build deployment made with Jenkins and GH Webhooks.
 ![alt text]( ./img.png) 
