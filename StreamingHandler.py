@@ -4,16 +4,8 @@ from http import server
 # Class to handle HTTP requests
 class StreamingHandler(server.BaseHTTPRequestHandler):
     def create_page(self):
-        self.PAGE = """\
-                <html>
-                <head>
-                <title>WOC</title>
-                </head>
-                <body>
-                <p>Hi!</p>
-                </body>
-                </html>
-                """
+        with open('index.html', 'r') as file:
+            self.PAGE = file.read().replace('\n', '')
         self.content = self.PAGE.encode('utf-8')
 
     def do_GET(self):

@@ -1,4 +1,3 @@
-# Class to handle HTTP requests
 import socketserver
 from http import server
 
